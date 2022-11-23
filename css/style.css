@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    background:linear-gradient(#66bb6a, #fdc93b);
+}
+ul{
+    list-style: none;
+}
+.list{
+    padding:80px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 16px;
+    color:black;
+}
+.total{
+    width: 20px;
+    height: 30px;
+    background-color: #fdc93b;
+}
